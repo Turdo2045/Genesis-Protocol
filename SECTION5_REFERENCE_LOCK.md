@@ -34,7 +34,7 @@ protocol\footnote{\url{https://github.com/Turdo2045/Genesis-Protocol/blob/main/c
 From the candidate workspace to the local clone root:
 
 ```bash
-rsync -a --delete \
+rsync -a --exclude ".git" \
   "/Users/andy/Workspaces/20_Company/company/交付/新人类之父/Genesis-Protocol/" \
   "/Users/andy/Soft/kimicode/TurdoAll/Genesis-Protocol/"
 cd "/Users/andy/Soft/kimicode/TurdoAll/Genesis-Protocol" \
