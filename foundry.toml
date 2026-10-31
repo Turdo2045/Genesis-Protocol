@@ -3,3 +3,4 @@ src = "contracts"
 test = "test"
 out = "out"
 libs = ["lib"]
+via_ir = true

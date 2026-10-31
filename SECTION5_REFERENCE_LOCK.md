@@ -13,6 +13,8 @@ change and must be rejected in review.
 | P-12 | Off-chain reference logic (pseudocode) | `pseudocode/p12_state_engine.py` | https://github.com/Turdo2045/Genesis-Protocol/blob/main/pseudocode/p12_state_engine.py |
 | P-13 | Ephemeral Persona-Inheritance Matrix (Solidity core) | `contracts/P13_EphemeralPersonaInheritance.sol` | https://github.com/Turdo2045/Genesis-Protocol/blob/main/contracts/P13_EphemeralPersonaInheritance.sol |
 | P-13 | Off-chain reference logic (pseudocode) | `pseudocode/p13_persona_inheritance.py` | https://github.com/Turdo2045/Genesis-Protocol/blob/main/pseudocode/p13_persona_inheritance.py |
+| P-15 | Ontology-Agnostic Control Layer (Solidity core) | `contracts/P15_OntologyAgnosticControl.sol` | https://github.com/Turdo2045/Genesis-Protocol/blob/main/contracts/P15_OntologyAgnosticControl.sol |
+| — | Counterfactual robustness analysis | `docs/COUNTERFACTUAL_ROBUSTNESS.md` | https://github.com/Turdo2045/Genesis-Protocol/blob/main/docs/COUNTERFACTUAL_ROBUSTNESS.md |
 | P-14 | Edge-Side ZK Privacy anchor (Solidity core) | `contracts/P14_EdgeZKPrivacy.sol` | https://github.com/Turdo2045/Genesis-Protocol/blob/main/contracts/P14_EdgeZKPrivacy.sol |
 | P-14 | Edge pipeline reference logic (pseudocode) | `pseudocode/p14_edge_zk.py` | https://github.com/Turdo2045/Genesis-Protocol/blob/main/pseudocode/p14_edge_zk.py |
 
