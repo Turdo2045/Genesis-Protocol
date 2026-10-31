@@ -43,7 +43,7 @@ contract P13_EphemeralPersonaInheritance {
         uint256 indexed id,
         bytes32 indexed heirCommitment,
         bytes32 newPersonaCommitment,
-        uint64 at
+        uint64 atTime
     );
 
     error NotController();

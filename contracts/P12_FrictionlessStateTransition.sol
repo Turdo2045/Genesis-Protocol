@@ -41,7 +41,7 @@ contract P12_FrictionlessStateTransition {
     event CovenantResumed(uint256 indexed id);
     event LedgerPosted(uint256 indexed id, address indexed party, int256 delta);
     /// @notice The single terminal event: full state reset, one block, zero fee.
-    event LedgerStateReset(uint256 indexed id, address indexed initiator, uint64 at);
+    event LedgerStateReset(uint256 indexed id, address indexed initiator, uint64 atTime);
 
     error NotParty();
     error BadState(State required, State actual);

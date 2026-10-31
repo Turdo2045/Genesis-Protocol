@@ -44,7 +44,7 @@ contract P14_EdgeZKPrivacy {
         bytes32 indexed deviceCommitment,
         bytes32 indexed nullifier,
         bytes32 newStateCommitment,
-        uint64 at
+        uint64 atTime
     );
 
     error ProofInvalid();
