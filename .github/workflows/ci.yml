@@ -1,0 +1,21 @@
+name: invariant-tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  forge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+
+      - name: Install dependencies
+        run: forge install foundry-rs/forge-std --no-commit
+
+      - name: Run invariant tests (P-12 / P-13 / P-14 / P-15)
+        run: forge test -vv
